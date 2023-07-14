@@ -16,13 +16,13 @@ Disk: 80 GB
 
 Utilizado gerenciador de acesso remoto do VS Code para acessar as máquinas
 
-# permitir acesso a pasta AWS
+# Permitir acesso a pasta AWS
 Para liberar acesso ao gerenciamento de pastas caso utilizar um gerenciador de ssh deve permitir acesso ao usuário atual para editar as pastas, neste caso o usuário é ubuntu
 ```
 sudo chown -R ubuntu /home/ubuntu/
 ```
 
-# instalar bibliotecas necessárias
+# Instalar bibliotecas necessárias
 ```
 sudo apt update && apt -y install python && sudo apt -y install git && sudo apt -y install ansible && sudo apt -y install net-tools
 ```
@@ -113,3 +113,7 @@ sudo ansible-playbook dev/free5gc-v3.1.1/free5gc-n3iwf-setup.yaml -i dev/free5gc
 ```
 ansible-playbook dev/UEnon3GPP-setup.yaml -i dev/free5gc-v3.1.1/hosts
 ```
+
+# -------
+
+Com isso todo o ambiente está pronto para iniciar, agora será necessário acessar os arivos do 
