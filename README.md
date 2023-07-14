@@ -93,7 +93,7 @@ source ~/.bashrc
 ```
 
 # Setup Free5GC
-Instalar curl para mongo
+Instalar curl para mongo individualmente em cada máquina
 ```
 sudo apt-get install gnupg curl
 
@@ -105,6 +105,7 @@ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gp
 
 sudo apt-get update
 ```
+Rodar comando seguinte na máquina openinstallcc
 ```
 sudo ansible-playbook dev/free5gc-v3.1.1/free5gc-n3iwf-setup.yaml -i dev/free5gc-v3.1.1/hosts
 ```
@@ -116,4 +117,4 @@ ansible-playbook dev/UEnon3GPP-setup.yaml -i dev/free5gc-v3.1.1/hosts
 
 # -------
 
-Com isso todo o ambiente está pronto para iniciar, agora será necessário acessar os arivos do 
+Com isso todo o ambiente está pronto para iniciar, agora será necessário acessar os arquivos de configuração de IP de AMF, N3IWF entre outros que seguiremos mais adiante neste tutorial.
