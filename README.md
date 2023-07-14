@@ -1,6 +1,6 @@
 ## Configuração de Ambiente para coleta de dados de QoS (5QI) em redes 5G
 
-O tutorial foi baseado no ambiente divulgado pelo Ciro Macedo no vídeo disponível em: https://www.youtube.com/watch?v=UswQTnTZGt4
+O tutorial foi baseado no ambiente divulgado pelo Ciro Macedo no vídeo disponível em https://github.com/ciromacedo/UE-non3GPP-v1 e gravado em vídeo em https://www.youtube.com/watch?v=UswQTnTZGt4
 
 # Environment
 Ambiente necessita de 4 máquinas para funcionar. O ambiente foi desenvolvido na AWS. Ao acessar deve-se criar 4 máquinas com os seguintes nomes e requisitos abaixo:
